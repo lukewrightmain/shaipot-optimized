@@ -1,0 +1,57 @@
+cargo:CXXBRIDGE_PREFIX=shaipot
+cargo:CXXBRIDGE_DIR0=/data/data/com.termux/files/home/shaipot-optimized/./target/release/build/shaipot-bb8afb4bab9b8111/out/cxxbridge/include
+cargo:CXXBRIDGE_DIR1=/data/data/com.termux/files/home/shaipot-optimized/./target/release/build/shaipot-bb8afb4bab9b8111/out/cxxbridge/crate
+OUT_DIR = Some(/data/data/com.termux/files/home/shaipot-optimized/./target/release/build/shaipot-bb8afb4bab9b8111/out)
+TARGET = Some(aarch64-linux-android)
+OPT_LEVEL = Some(3)
+HOST = Some(aarch64-linux-android)
+cargo:rerun-if-env-changed=CXX_aarch64-linux-android
+CXX_aarch64-linux-android = None
+cargo:rerun-if-env-changed=CXX_aarch64_linux_android
+CXX_aarch64_linux_android = None
+cargo:rerun-if-env-changed=HOST_CXX
+HOST_CXX = None
+cargo:rerun-if-env-changed=CXX
+CXX = Some(g++)
+cargo:rerun-if-env-changed=CC_KNOWN_WRAPPER_CUSTOM
+CC_KNOWN_WRAPPER_CUSTOM = None
+RUSTC_WRAPPER = None
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some(false)
+cargo:rerun-if-env-changed=CXXFLAGS_aarch64-linux-android
+CXXFLAGS_aarch64-linux-android = None
+cargo:rerun-if-env-changed=CXXFLAGS_aarch64_linux_android
+CXXFLAGS_aarch64_linux_android = None
+cargo:rerun-if-env-changed=HOST_CXXFLAGS
+HOST_CXXFLAGS = None
+cargo:rerun-if-env-changed=CXXFLAGS
+CXXFLAGS = None
+cargo:rerun-if-env-changed=AR_aarch64-linux-android
+AR_aarch64-linux-android = None
+cargo:rerun-if-env-changed=AR_aarch64_linux_android
+AR_aarch64_linux_android = None
+cargo:rerun-if-env-changed=HOST_AR
+HOST_AR = None
+cargo:rerun-if-env-changed=AR
+AR = None
+LLVM (http://llvm.org/):
+  LLVM version 20.1.8
+  Optimized build.
+cargo:rerun-if-env-changed=ARFLAGS_aarch64-linux-android
+ARFLAGS_aarch64-linux-android = None
+cargo:rerun-if-env-changed=ARFLAGS_aarch64_linux_android
+ARFLAGS_aarch64_linux_android = None
+cargo:rerun-if-env-changed=HOST_ARFLAGS
+HOST_ARFLAGS = None
+cargo:rerun-if-env-changed=ARFLAGS
+ARFLAGS = None
+LLVM (http://llvm.org/):
+  LLVM version 20.1.8
+  Optimized build.
+cargo:rustc-link-lib=static=graph_generator
+cargo:rustc-link-search=native=/data/data/com.termux/files/home/shaipot-optimized/./target/release/build/shaipot-bb8afb4bab9b8111/out
+cargo:rerun-if-changed=src/graph_bridge.rs
+cargo:rerun-if-changed=src/cpp/graph_generator.cpp
+cargo:rerun-if-changed=src/cpp/graph_generator.h

@@ -1,0 +1,12 @@
+/data/data/com.termux/files/home/shaipot-optimized/./target/release/deps/mime_guess-3ba70a87fc8bd134.d: /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mime_guess-2.0.5/src/lib.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mime_guess-2.0.5/src/impl_bin_search.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mime_guess-2.0.5/src/mime_types.rs /data/data/com.termux/files/home/shaipot-optimized/./target/release/build/mime_guess-c02bd68b8fa2eb94/out/mime_types_generated.rs
+
+/data/data/com.termux/files/home/shaipot-optimized/./target/release/deps/libmime_guess-3ba70a87fc8bd134.rlib: /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mime_guess-2.0.5/src/lib.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mime_guess-2.0.5/src/impl_bin_search.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mime_guess-2.0.5/src/mime_types.rs /data/data/com.termux/files/home/shaipot-optimized/./target/release/build/mime_guess-c02bd68b8fa2eb94/out/mime_types_generated.rs
+
+/data/data/com.termux/files/home/shaipot-optimized/./target/release/deps/libmime_guess-3ba70a87fc8bd134.rmeta: /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mime_guess-2.0.5/src/lib.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mime_guess-2.0.5/src/impl_bin_search.rs /data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mime_guess-2.0.5/src/mime_types.rs /data/data/com.termux/files/home/shaipot-optimized/./target/release/build/mime_guess-c02bd68b8fa2eb94/out/mime_types_generated.rs
+
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mime_guess-2.0.5/src/lib.rs:
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mime_guess-2.0.5/src/impl_bin_search.rs:
+/data/data/com.termux/files/home/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/mime_guess-2.0.5/src/mime_types.rs:
+/data/data/com.termux/files/home/shaipot-optimized/./target/release/build/mime_guess-c02bd68b8fa2eb94/out/mime_types_generated.rs:
+
+# env-dep:MIME_TYPES_GENERATED_PATH=/data/data/com.termux/files/home/shaipot-optimized/./target/release/build/mime_guess-c02bd68b8fa2eb94/out/mime_types_generated.rs
