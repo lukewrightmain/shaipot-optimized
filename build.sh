@@ -30,3 +30,6 @@ cargo build --release -j1 --target-dir ./target
 if [ -f ./target/release/shaipot ]; then
   echo "[+] Build completed successfully!"
   echo "[+] Binary: ./target/release/shaipot"
+else
+  echo "[!] Build failed — check for errors above."
+fi
